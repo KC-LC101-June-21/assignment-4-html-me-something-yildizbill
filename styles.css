@@ -1,1 +1,47 @@
 /* Write your CSS here! */
+
+body {
+    margin: 8px;
+    display: block;
+    background-image :url("./images/backy.png");
+  }
+  
+  header {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  h2{
+      color: rgb(14, 13, 15);
+  }
+  
+  #mainHeading {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #summary {
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  #skills {
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  #mainHeading {
+    color: rgb(38, 43, 27);
+  }
+  
+  .funParagraph {
+    color: rgb(242, 243, 239);
+  }
+  
+  .Responsibilities {
+    color: rgb(242, 243, 239);
+  }
+  
+  .Automation {
+      color:rgb(242, 243, 239);
+    }/* Write your CSS here! */
