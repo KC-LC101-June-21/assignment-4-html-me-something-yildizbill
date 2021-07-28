@@ -1,8 +1,200 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+  <head id="mainHeading">
+    <title>My Professional Skills in My Engineering Life</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="app.js"></script>
+    <h1 id="mainHeading" class="mainTitle">Professional Resume</h1>
+  </head>
+  <body onload="alert('WELCOME TO MY RESUME WEBPAGE!')">
+    <main>
+      <header>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#Contact">Contact</a>
+        <a href="#experience">Experience</a>
+      </header>
+
+      <section id="summary">
+        <table>
+          <tr>
+            <td width="300"><h1>Summary</h1></td>
+            <td>
+              <p id="testP" class="funParagraph">
+                6 years of experience in IT, Software Automation Test Engineer
+                with core Selenium, SQL and API testing experience to provide
+                outstanding assistance in a team oriented Agile environment,
+                utilizing proficiency in the SDLC, STLC and technical knowledge.
+                Open to relocation in the United States.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="skills">
+        <table>
+          <td width="300"><h1>Skills</h1></td>
+          <td>
+            <table>
+              <tr>
+                <td><h3>Tools That I have Been Specialized in</h3></td>
+                <td>
+                  <ol>
+                    <li>Selenium Web Driver</li>
+                    <li>Rest-Assured</li>
+                    <li>Postman</li>
+                    <li>Cucumber</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td><h3>Languages That I have Been Specialized in</h3></td>
+                <td>
+                  <ol>
+                    <li>HTML</li>
+                    <li>JS</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>XML</li>
+                    <li>Gherkin</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td><h3>Frameworks That I have Been Specialized in</h3></td>
+                <td>
+                  <ol>
+                    <li>TestNG</li>
+                    <li>Cucumber</li>
+                    <li>JUnit</li>
+                    <li>Bootstrap</li>
+                    <li>JQuery</li>
+                    <li>Angular</li>
+                    <li>React</li>
+                  </ol>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </table>
+      </section>
+
+      <!-- Work Experience-->
+
+      <section id="experience">
+        <article>
+          <h2>
+            Client: Yildiz AAC Capital, Seattle, Washington June 2016 to Present
+            Title:
+          </h2>
+          <p id="testP" class="funParagraph">
+            Automation Engineer Responsibilities: Worked in Agile environment,
+            attended daily scrum, sprint grooming, sprint planning and sprint
+            retro meetings. Attended the Business and Functional Requirement
+            Document (BRD) review meetings conducted by BA team to better
+            understand the application functionality in order to create the Test
+            Cases and Test Scenarios. Developed test scripts in Selenium for
+            Regression, Smoke and Functional Testing. Developed and maintained
+            automated regression test cases in Selenium Web Driver using Java as
+            the programming language. Responsible for implementation of Data
+            Driven Automation
+          </p>
+        </article>  
+
+        <article>
+          <h2>
+            Client: Pirates Healthcare Little Rock, AR January 2014 to May 2016
+          </h2>
+          <p class="funParagraph">
+            Title: Automation QA Responsibilities: Involved in Test Plan
+            Documentation and responsible in writing and reviewing test cases.
+            Automated test cases and executed them against different
+            environments. Participated in Walk through of Test Plans and Test
+            Cases. Estimated, planned and coordinated testing resources,
+            activities, and work progress. Lead the creation of test artifacts
+            such as test scenarios and test scripts, and validated them against
+            functional requirements and design documents.
+          </p>
+        </article>
+
+        <article>
+          <h2>
+            Client: Feribot Tech LLC, Buffola, NY February 2012 to December 2014
+            Title: Quality Assurance Analyst
+          </h2>
+          <p class="funParagraph">
+            Responsibilities: Performed Smoke test, Functional test, Regression
+            Test, and User Acceptance Test. Involved in requirements gathering
+            and analysis during the initial stage of SDLC. Developed reusable
+            Test Cases from Business Requirement Documents and use case
+            scenarios and Functional Requirement Documents. Actively performed
+            negative testing, integration testing, Ad-hoc testing, positive
+            testing, database (back-end) testing. Developed and maintained
+            keyword driven and data driven framework, using Selenium WebDriver.
+            Took ownership/responsibility of the reported defects and followed
+            up until the defect was fixed and closed. Participated in both code
+            and framework design review meetings. Actively involved in
+            preparation of Requirement Traceability Matrix (RTM) on various
+            dimensions
+          </p>
+        </article>
+      </section>
+
+      <footer>
+        <table id>
+          <tr>
+            <td id="Contact" width="300"><h1>Contact</h1></td>
+            <td>
+              <img width="300" src="./images/profile.jpeg" />
+            </td>
+            <td>
+              <form action="">
+                <table>
+                  <tr>
+                    <td><label for="username">UserName</label></td>
+                    <td>
+                      <input
+                        id="username"
+                        type="text"
+                        autocomplete="username"
+                        minlength="5"
+                        maxlength="10"
+                        required
+                        placeholder="Username"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="password">Password</label></td>
+                    <td>
+                      <input
+                        id="password"
+                        type="password"
+                        autocomplete="current-password"
+                        minlength="5"
+                        maxlength="10"
+                        required
+                        placeholder="Password"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="agg">Accept Aggreement</label>
+                      <input id="agg" type="checkbox" />
+                    </td>
+                    <td>
+                      <input type="submit" />
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </footer>
+    </main>
+
+    <p>copyright &copy; 2021</p>
+  </body>
 </html>
