@@ -31,11 +31,13 @@ body {
   }
   
   #mainHeading {
-    color: rgb(38, 43, 27);
+    color: red;
+
   }
   
   .funParagraph {
-    color: rgb(242, 243, 239);
+    color:green;
+    
   }
   
   .Responsibilities {
